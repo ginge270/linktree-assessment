@@ -1,0 +1,33 @@
+{
+  "name": "linktree-assessment",
+  "version": "1.0.0",
+  "description": "We have three new link types for our users.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --forceExit",
+    "test:watch": "jest --watchAll --forceExit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ginge270/linktree-assessment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ginge270/linktree-assessment/issues"
+  },
+  "homepage": "https://github.com/ginge270/linktree-assessment#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "typescript": "^4.7.4"
+  },
+  "devDependencies": {
+    "@types/jest": "^28.1.6",
+    "jest": "^28.1.3",
+    "msw": "^0.44.2",
+    "prisma": "^4.1.1",
+    "ts-jest": "^28.0.7",
+    "ts-node": "^10.9.1"
+  }
+}
