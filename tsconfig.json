@@ -12,6 +12,6 @@
         "strict": true,
         "lib": ["esnext"]
     },
-    "include": ["src","test"],
+    "include": ["src","test", "app.ts"],
     "exclude": ["node_modules"]
 }
