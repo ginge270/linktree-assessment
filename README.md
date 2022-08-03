@@ -39,13 +39,13 @@ This is a Linktree API that allows users create, update, get and delete links fo
 
 ### Built With
 
-* [![TypeScript][https://www.typescriptlang.org]
-* [![Node]][https://nodejs.org/en/]
-* [![Jest]][https://jestjs.io]
-* [![MockServiceWorker]][https://mswjs.io]
-* [![Swagger]][https://swagger.io]
-* [![Prisma]][https://www.prisma.io]
-* [![Express]][https://expressjs.com]
+* [TypeScript][https://www.typescriptlang.org]
+* [Node][https://nodejs.org/en/]
+* [Jest][https://jestjs.io]
+* [MockServiceWorker]][https://mswjs.io]
+* [Swagger]][https://swagger.io]
+* [Prisma][https://www.prisma.io]
+* [Express][https://expressjs.com]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
