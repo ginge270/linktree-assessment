@@ -1,0 +1,54 @@
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql" 
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  userId String @id 
+  email String @unique
+  accountType String 
+  createdAt DateTime @default(now())
+  updatedAt DateTime @default(now())
+  links String[]
+}
+
+
+model LinkDetails {
+    userId String @unique
+    linkId String @id
+    url String 
+    linkTitle String
+    description String
+    linkType String
+    createdAt DateTime @default(now())
+    updatedAt DateTime @default(now())
+    showsList ShowsList[]
+    musicPlayer MusicPlayer[]
+}
+
+model ShowsList {
+    linkId String @id
+    showLocation String
+    onSale Boolean @default(false)
+    soldOut Boolean 
+}
+
+model MusicPlayer {
+    id String @id
+    platformName String
+    platformUrl String
+    embedUrl String
+}
+
+//@todo create enums for accounttype, platformname, linktype
+
+
+model Authentication {
+  userId String @id
+  apiKey String @unique
+}
