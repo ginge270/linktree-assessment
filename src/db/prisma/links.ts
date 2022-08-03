@@ -10,9 +10,6 @@ export class linkFunctions {
         where: {
         id: userId,
       },
-      return new Link
-      
-
       
 })
 

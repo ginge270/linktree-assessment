@@ -27,8 +27,8 @@ model LinkDetails {
     linkType String
     createdAt DateTime @default(now())
     updatedAt DateTime @default(now())
-    showsList ShowsList[]
-    musicPlayer MusicPlayer[]
+    //showsList ShowsList[]
+    //musicPlayer MusicPlayer[]
 }
 
 model ShowsList {
