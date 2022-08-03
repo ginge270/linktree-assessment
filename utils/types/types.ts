@@ -1,7 +1,10 @@
 export interface User {
-    userId: string
+    userId: String
     email: String
     accountType: String
+    createdAt: Date
+    updatedAt: Date
+    apiKey: String
 }
 
 export interface Link {
@@ -12,7 +15,6 @@ export interface Link {
 
 export interface ShowsList extends Link {
     shows: [{
-        showlist: String
         showLocation: String
         onSale: Boolean
         soldOut: Boolean
@@ -22,7 +24,7 @@ export interface ShowsList extends Link {
 export interface MusicPlayer extends Link {
     musicPlatforms: [{
         platformName: String
-        platformUrl: string
+        platformUrl: String
         embedUrl: String
     }]
 
